@@ -1,3 +1,5 @@
+const base = import.meta.env.BASE_URL;
+
 import type { SiteConfig } from '../types';
 
 export const siteConfig: SiteConfig = {
@@ -40,7 +42,7 @@ export const siteConfig: SiteConfig = {
     youtubeId: 'tf10eWe0gFU',
     startTime: 15,
     videoPlaceholderUrl: 'https://www.youtube.com/watch?v=tf10eWe0gFU',
-    posterImage: '/images/hero-yt-poster.jpg',
+    posterImage: `${base}images/hero-yt-poster.jpg`,
   },
 
   story: {
@@ -52,7 +54,7 @@ export const siteConfig: SiteConfig = {
       'Here in Thiruvalla, cattle are not treated as industrial assets. Each animal is recognized as part of a living ecosystem — nurtured with clean water, balanced fodder, open pastures, and affectionate daily care.',
     quote: 'In our tradition, the cow is not a commodity, but an elder companion of the soil.',
     quoteAuthor: 'The Mahalekshmi Philosophy',
-    image: '/images/goshala/caretaker-cow-bond.jpg',
+    image: `${base}images/goshala/caretaker-cow-bond.jpg`,
   },
 
   farmEnvironment: {
@@ -82,8 +84,8 @@ export const siteConfig: SiteConfig = {
       },
     ],
     imagery: {
-      landscape: '/images/goshala/kerala-pastoral-egret.jpg',
-      sheds: '/images/goshala/gir-calves-shed.jpg',
+      landscape: `${base}images/goshala/kerala-pastoral-egret.jpg`,
+      sheds: `${base}images/goshala/gir-calves-shed.jpg`,
     },
   },
 
@@ -101,7 +103,7 @@ export const siteConfig: SiteConfig = {
       characteristics: ['Convex forehead shield', 'Pendulous folded ears', 'Prominent dorsal hump', 'Gentle, calm temperament'],
       temperament: 'Remarkably affectionate and docile',
       heritageSignificance: 'One of the world’s cornerstone dairy zebu breeds, preserved across generations.',
-      image: '/images/gir-cow.jpg',
+      image: `${base}images/gir-cow.jpg`,
       alt: 'Majestic adult Gir cow with signature convex brow and sweeping pendulous ears',
     },
     {
@@ -117,7 +119,7 @@ export const siteConfig: SiteConfig = {
       characteristics: ['Diminutive stature (< 90 cm)', 'Lightweight and agile', 'High tropical adaptability', 'Narrow muzzle and compact horns'],
       temperament: 'Alert, gentle, and quiet',
       heritageSignificance: 'Kerala’s proud indigenous heritage, rescued from near-extinction through dedicated local conservation.',
-      image: '/images/vechur-cow.jpg',
+      image: `${base}images/vechur-cow.jpg`,
       alt: 'Compact indigenous Vechur cow standing calmly in green Kerala pasture',
     },
     {
@@ -133,7 +135,7 @@ export const siteConfig: SiteConfig = {
       characteristics: ['Reddish-dun glossy coat', 'Voluminous loose dewlap', 'Sturdy symmetrical build', 'Calm and steady demeanor'],
       temperament: 'Placid, composed, and friendly',
       heritageSignificance: 'An ancient dairy lineage prized for centuries across northwest India.',
-      image: '/images/sahiwal-cow.jpg',
+      image: `${base}images/sahiwal-cow.jpg`,
       alt: 'Red-toned Sahiwal cattle with characteristic dewlap in natural light',
     },
     {
@@ -149,7 +151,7 @@ export const siteConfig: SiteConfig = {
       characteristics: ['Silvery-white coat', 'Convex forehead profile', 'Medium lyre-curved horns', 'Exceptional heat tolerance'],
       temperament: 'Intelligent and reserved',
       heritageSignificance: 'Symbol of endurance and survival across desert civilizations.',
-      image: '/images/tharparkar-cow.jpg',
+      image: `${base}images/tharparkar-cow.jpg`,
       alt: 'Silvery white Tharparkar cow in peaceful surroundings',
     },
     {
@@ -165,7 +167,7 @@ export const siteConfig: SiteConfig = {
       characteristics: ['Dramatic lyre-shaped horns', 'Distinctive Sawai Chaal stride', 'Deep chest and athletic physique', 'Noble carriage'],
       temperament: 'Confident, dignified, and vigilant',
       heritageSignificance: 'Archaeologically traced to ancient Harappan terracotta seals.',
-      image: '/images/kankrej-cow.jpg',
+      image: `${base}images/kankrej-cow.jpg`,
       alt: 'Majestic Kankrej bull with magnificent lyre-shaped horns',
     },
     {
@@ -181,7 +183,7 @@ export const siteConfig: SiteConfig = {
       characteristics: ['Compact miniature frame', 'Varied coat shades (black, red, brown)', 'Hardy hooves', 'Natural foraging ability'],
       temperament: 'Spirited, resilient, and friendly',
       heritageSignificance: 'A vital component of Kerala’s traditional homestead agro-ecology.',
-      image: '/images/kasaragod-dwarf.jpg',
+      image: `${base}images/kasaragod-dwarf.jpg`,
       alt: 'Indigenous Kasaragod dwarf cattle in Kerala countryside',
     },
     {
@@ -197,7 +199,7 @@ export const siteConfig: SiteConfig = {
       characteristics: ['Iron-grey or dark grey coat', 'Curved horns curving backward and inward', 'Compact, tightly knit frame', 'Tenacious endurance'],
       temperament: 'Active, robust, and dignified',
       heritageSignificance: 'South India’s storied heritage breed preserved by traditional pastoralists.',
-      image: '/images/kangayam-bull.jpg',
+      image: `${base}images/kangayam-bull.jpg`,
       alt: 'Robust Kangayam cattle with characteristic backward horn curvature',
     },
   ],
@@ -210,7 +212,7 @@ export const siteConfig: SiteConfig = {
       title: 'Dawn & Shed Preparation',
       shortDesc: 'The farm stirs in the cool morning mist. Sheds are washed down and inspected before the day begins.',
       editorialNote: 'Fresh well-water flows through the troughs while handlers greet each stall, noting temperament and comfort.',
-      image: '/images/goshala/goshala-shed-feeding.jpg',
+      image: `${base}images/goshala/goshala-shed-feeding.jpg`,
     },
     {
       id: 'feeding',
@@ -219,7 +221,7 @@ export const siteConfig: SiteConfig = {
       title: 'Nourishment & Fodder',
       shortDesc: 'Nutrient-rich green fodder, harvested local grass, and natural mineral rations are distributed.',
       editorialNote: 'Feeding is timed carefully to match natural digestive rhythms, ensuring steady rumination without stress.',
-      image: '/images/goshala/modern-feed-barrier.jpg',
+      image: `${base}images/goshala/modern-feed-barrier.jpg`,
     },
     {
       id: 'care',
@@ -228,7 +230,7 @@ export const siteConfig: SiteConfig = {
       title: 'Grooming & Veterinary Check',
       shortDesc: 'Brushing, hooves inspection, and individual health observation with gentle human touch.',
       editorialNote: 'Regular touch fosters deep trust between cattle and handlers, keeping stress levels exceptionally low.',
-      image: '/images/goshala/caretaker-cow-bond.jpg',
+      image: `${base}images/goshala/caretaker-cow-bond.jpg`,
     },
     {
       id: 'grazing',
@@ -237,7 +239,7 @@ export const siteConfig: SiteConfig = {
       title: 'Shaded Paddock Grazing',
       shortDesc: 'Cattle take to shaded open paddocks under Kerala’s canopies of coconut and jackfruit trees.',
       editorialNote: 'Free movement and social interaction in the herd are essential for emotional well-being.',
-      image: '/images/goshala/kerala-pastoral-egret.jpg',
+      image: `${base}images/goshala/kerala-pastoral-egret.jpg`,
     },
     {
       id: 'milking',
@@ -246,7 +248,7 @@ export const siteConfig: SiteConfig = {
       title: 'Calm Afternoon Care',
       shortDesc: 'Clean, stress-free routine conducted in quiet surroundings, honoring natural maternal bonds.',
       editorialNote: 'Calves are prioritized, and milking is performed with gentle, hygienic methods in an unhurried atmosphere.',
-      image: '/images/goshala/milking-station-sanctuary.jpg',
+      image: `${base}images/goshala/milking-station-sanctuary.jpg`,
     },
     {
       id: 'evening',
@@ -255,7 +257,7 @@ export const siteConfig: SiteConfig = {
       title: 'Evening Calm & Rest',
       shortDesc: 'Cattle settle into clean, dry rubber-matted stalls as dusk falls over Thiruvalla.',
       editorialNote: 'Soft ambient shed lighting and the chirping of crickets mark the close of another peaceful day.',
-      image: '/images/goshala/resting-calf-straw.jpg',
+      image: `${base}images/goshala/resting-calf-straw.jpg`,
     },
   ],
 
@@ -267,7 +269,7 @@ export const siteConfig: SiteConfig = {
       description:
         'Our cattle receive freshly chopped hybrid Napier grass, legumes, dry straw, and custom mineral balances without artificial stimulants.',
       principle: 'Clean digestion is the foundation of animal longevity and happiness.',
-      image: '/images/goshala/feed-alley-perspective.jpg',
+      image: `${base}images/goshala/feed-alley-perspective.jpg`,
     },
     {
       id: 'shelter',
@@ -276,7 +278,7 @@ export const siteConfig: SiteConfig = {
       description:
         'Sheds are designed with open gables to channel Kerala’s gentle breezes, insulated roofing to reduce heat stress, and hygienic flooring.',
       principle: 'Living space must honor the natural posture and cooling needs of zebu cattle.',
-      image: '/images/goshala/modern-barn-panorama.jpg',
+      image: `${base}images/goshala/modern-barn-panorama.jpg`,
     },
     {
       id: 'human-touch',
@@ -285,7 +287,7 @@ export const siteConfig: SiteConfig = {
       description:
         'Our handlers live nearby in Thiruvalla and form lifelong bonds with the herd. Every cow is addressed by name and treated with patience.',
       principle: 'Gentleness in everyday interaction removes fear and builds calm contentment.',
-      image: '/images/goshala/caretaker-cow-bond.jpg',
+      image: `${base}images/goshala/caretaker-cow-bond.jpg`,
     },
     {
       id: 'hygiene',
@@ -294,7 +296,7 @@ export const siteConfig: SiteConfig = {
       description:
         'Continuous fresh water circulation, systematic biosecurity, and natural neem-based repellent treatments safeguard herd health.',
       principle: 'Preventative care and pristine hygiene replace unnecessary medical interventions.',
-      image: '/images/goshala/kerala-cows-water-trough.jpg',
+      image: `${base}images/goshala/kerala-cows-water-trough.jpg`,
     },
   ],
 
@@ -339,7 +341,7 @@ export const siteConfig: SiteConfig = {
       title: 'Gir Calves in Open Shed',
       category: 'Cattle',
       caption: 'Young Gir calves resting peacefully in airy, high-roof stalls at Thiruvalla.',
-      image: '/images/goshala/gir-calves-shed.jpg',
+      image: `${base}images/goshala/gir-calves-shed.jpg`,
       aspect: 'landscape',
     },
     {
@@ -347,7 +349,7 @@ export const siteConfig: SiteConfig = {
       title: 'Kerala Pastoral Harmony',
       category: 'Landscape',
       caption: 'Lush tropical greenery where indigenous cattle and egrets dwell in peaceful symbiosis.',
-      image: '/images/goshala/kerala-pastoral-egret.jpg',
+      image: `${base}images/goshala/kerala-pastoral-egret.jpg`,
       aspect: 'square',
     },
     {
@@ -355,7 +357,7 @@ export const siteConfig: SiteConfig = {
       title: 'Maternal Nursing Bond',
       category: 'Daily Care',
       caption: 'Calves are nurtured unhurriedly on clean straw, prioritizing natural maternal affection.',
-      image: '/images/goshala/mother-nursing-calf.jpg',
+      image: `${base}images/goshala/mother-nursing-calf.jpg`,
       aspect: 'landscape',
     },
     {
@@ -363,7 +365,7 @@ export const siteConfig: SiteConfig = {
       title: 'Caretaker’s Gentle Touch',
       category: 'Daily Care',
       caption: 'Patient daily interaction and gentle touch create calm, trusting relationships.',
-      image: '/images/goshala/caretaker-cow-bond.jpg',
+      image: `${base}images/goshala/caretaker-cow-bond.jpg`,
       aspect: 'landscape',
     },
     {
@@ -371,7 +373,7 @@ export const siteConfig: SiteConfig = {
       title: 'Shed Feeding Canal',
       category: 'Architecture',
       caption: 'Open vaulted architecture featuring continuous clean water channels and fresh fodder alleys.',
-      image: '/images/goshala/goshala-shed-feeding.jpg',
+      image: `${base}images/goshala/goshala-shed-feeding.jpg`,
       aspect: 'square',
     },
     {
@@ -379,7 +381,7 @@ export const siteConfig: SiteConfig = {
       title: 'Continuous Fresh Hydration',
       category: 'Daily Care',
       caption: 'Pure well-water continually accessible through hygienic drinking troughs.',
-      image: '/images/goshala/kerala-cows-water-trough.jpg',
+      image: `${base}images/goshala/kerala-cows-water-trough.jpg`,
       aspect: 'landscape',
     },
     {
@@ -387,7 +389,7 @@ export const siteConfig: SiteConfig = {
       title: 'Hygienic Milking Station',
       category: 'Architecture',
       caption: 'Modern stainless-steel dairy standards ensuring absolute hygiene and gentle handling.',
-      image: '/images/goshala/milking-station-sanctuary.jpg',
+      image: `${base}images/goshala/milking-station-sanctuary.jpg`,
       aspect: 'portrait',
     },
     {
@@ -395,7 +397,7 @@ export const siteConfig: SiteConfig = {
       title: 'Calf Resting on Clean Bedding',
       category: 'Cattle',
       caption: 'Low-stress sanctum encouraging natural rumination and deep resting cycles.',
-      image: '/images/goshala/resting-calf-straw.jpg',
+      image: `${base}images/goshala/resting-calf-straw.jpg`,
       aspect: 'landscape',
     },
   ],
@@ -409,7 +411,7 @@ export const siteConfig: SiteConfig = {
       duration: '0:58',
       description: 'An intimate cinematic glimpse into our daily cattle routines, open sheds, and lush surroundings in Thiruvalla.',
       youtubeId: 'tf10eWe0gFU',
-      thumbnail: '/images/hero-yt-poster.jpg',
+      thumbnail: `${base}images/hero-yt-poster.jpg`,
     },
     supportingVideos: [
       {
@@ -418,7 +420,7 @@ export const siteConfig: SiteConfig = {
         duration: '3:20',
         description: 'How green fodder and natural balances are prepared fresh every sunrise.',
         youtubeId: 'dQw4w9WgXcQ',
-        thumbnail: '/images/goshala/modern-feed-barrier.jpg',
+        thumbnail: `${base}images/goshala/modern-feed-barrier.jpg`,
       },
       {
         id: 'sup-2',
@@ -426,7 +428,7 @@ export const siteConfig: SiteConfig = {
         duration: '5:45',
         description: 'Exploring the gentle daily handling and care protocols at the farm.',
         youtubeId: 'dQw4w9WgXcQ',
-        thumbnail: '/images/goshala/caretaker-cow-bond.jpg',
+        thumbnail: `${base}images/goshala/caretaker-cow-bond.jpg`,
       },
       {
         id: 'sup-3',
@@ -434,7 +436,7 @@ export const siteConfig: SiteConfig = {
         duration: '2:50',
         description: 'Watch the herd settle into clean resting quarters as twilight falls over the farm.',
         youtubeId: 'dQw4w9WgXcQ',
-        thumbnail: '/images/goshala/resting-calf-straw.jpg',
+        thumbnail: `${base}images/goshala/resting-calf-straw.jpg`,
       },
     ],
   },

@@ -14,7 +14,7 @@ export const FinalCTASection: React.FC<FinalCTASectionProps> = ({ onOpenVisitMod
       {/* Background Soft Kerala Landscape with Light Vignette */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/goshala/kerala-pastoral-egret.jpg"
+          src={`${import.meta.env.BASE_URL}images/goshala/kerala-pastoral-egret.jpg`}
           alt="Atmospheric Kerala landscape at Mahalekshmi Goshala"
           className="w-full h-full object-cover object-center filter brightness-[1.05] contrast-[1.0] scale-105 opacity-20"
         />
